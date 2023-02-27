@@ -7,9 +7,9 @@
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
        http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <mvc:annotation-driven/>
-    <mvc:resources mapping="/js/**" location="/resources/static/js/"/>
-    <mvc:resources mapping="/css/**" location="/resources/static/css/"/>
-    <!-- <mvc:resources mapping="/images/**" location="/resources/static/"/> -->
+    <mvc:resources mapping="/anipat/css/**" location="/resources/static/anipat/css/"/>
+    <mvc:resources mapping="/anipat/js/**" location="/resources/static/anipat/js/"/>
+    <mvc:resources mapping="/anipat/img/**" location="/resources/static/anipat/img/"/>
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/resources/templates/"/>
         <property name="suffix" value=".jsp"/>
