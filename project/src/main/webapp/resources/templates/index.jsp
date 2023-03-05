@@ -4,17 +4,20 @@
     <meta charset="utf-8">
 
     <!-- title -->
-    <title>Animal</title>
+    <title>투개더</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/image/favicon.png">
 
     <!-- css -->
-    <link rel="stylesheet" href="/anipat/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/anipat/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/anipat/css/magnific-popup.css">
-    <link rel="stylesheet" href="/anipat/css/nice-select.css">
-    <link rel="stylesheet" href="/anipat/css/gijgo.css">
-    <link rel="stylesheet" href="/anipat/css/animate.css">
-    <link rel="stylesheet" href="/anipat/css/slicknav.css">
-    <link rel="stylesheet" href="/anipat/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/nice-select.css">
+    <link rel="stylesheet" href="/css/gijgo.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/slicknav.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <!-- header_area_start -->
@@ -55,8 +58,8 @@
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-3">
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="/anipat/img/logo.png" alt="">
+                            <a href="/">
+                                <img src="/image/logo.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -109,7 +112,7 @@
             </div>
         </div>
         <div class="dog_thumb d-none d-lg-block">
-            <img src="/anipat/img/banner/dog.png" alt="">
+            <img src="/image/banner/dog.png" alt="">
         </div>
     </div>
 </div>
@@ -132,7 +135,7 @@
                 <div class="single_service">
                     <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                         <div class="service_icon">
-                            <img src="/anipat/img/service/service_icon_1.png" alt="">
+                            <img src="/image/service/service_icon_1.png" alt="">
                         </div>
                     </div>
                     <div class="service_content text-center">
@@ -146,7 +149,7 @@
                 <div class="single_service active">
                     <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                         <div class="service_icon">
-                            <img src="/anipat/img/service/service_icon_2.png" alt="">
+                            <img src="/image/service/service_icon_2.png" alt="">
                         </div>
                     </div>
                     <div class="service_content text-center">
@@ -160,7 +163,7 @@
                 <div class="single_service">
                     <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                         <div class="service_icon">
-                            <img src="/anipat/img/service/service_icon_3.png" alt="">
+                            <img src="/image/service/service_icon_3.png" alt="">
                         </div>
                     </div>
                     <div class="service_content text-center">
@@ -181,7 +184,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-6">
                 <div class="pet_thumb">
-                    <img src="/anipat/img/about/pet_care.png" alt="">
+                    <img src="/image/about/pet_care.png" alt="">
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-1 col-md-6">
@@ -222,7 +225,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6">
                             <div class="single_adapt text-center">
-                                <img src="/anipat/img/adapt_icon/1.png" alt="">
+                                <img src="/image/adapt_icon/1.png" alt="">
                                 <div class="adapt_content">
                                     <h3 class="counter">452</h3>
                                     <p>Pets Available</p>
@@ -231,14 +234,14 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="single_adapt text-center">
-                                <img src="/anipat/img/adapt_icon/3.png" alt="">
+                                <img src="/image/adapt_icon/3.png" alt="">
                                 <div class="adapt_content">
                                     <h3><span class="counter">52</span>+</h3>
                                     <p>Pets Available</p>
                                 </div>
                             </div>
                             <div class="single_adapt text-center">
-                                <img src="/anipat/img/adapt_icon/2.png" alt="">
+                                <img src="/image/adapt_icon/2.png" alt="">
                                 <div class="adapt_content">
                                     <h3><span class="counter">52</span>+</h3>
                                     <p>Pets Available</p>
@@ -262,7 +265,7 @@
                     <div class="testmonial_wrap">
                         <div class="single_testmonial d-flex align-items-center">
                             <div class="test_thumb">
-                                <img src="/anipat/img/testmonial/1.png" alt="">
+                                <img src="/image/testmonial/1.png" alt="">
                             </div>
                             <div class="test_content">
                                 <h4>Jhon Walker</h4>
@@ -276,7 +279,7 @@
                     <div class="testmonial_wrap">
                         <div class="single_testmonial d-flex align-items-center">
                             <div class="test_thumb">
-                                <img src="/anipat/img/testmonial/1.png" alt="">
+                                <img src="/image/testmonial/1.png" alt="">
                             </div>
                             <div class="test_content">
                                 <h4>Jhon Walker</h4>
@@ -290,7 +293,7 @@
                     <div class="testmonial_wrap">
                         <div class="single_testmonial d-flex align-items-center">
                             <div class="test_thumb">
-                                <img src="/anipat/img/testmonial/1.png" alt="">
+                                <img src="/image/testmonial/1.png" alt="">
                             </div>
                             <div class="test_content">
                                 <h4>Jhon Walker</h4>
@@ -325,7 +328,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single_team">
                     <div class="thumb">
-                        <img src="/anipat/img/team/1.png" alt="">
+                        <img src="/image/team/1.png" alt="">
                     </div>
                     <div class="member_name text-center">
                         <div class="mamber_inner">
@@ -338,7 +341,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single_team">
                     <div class="thumb">
-                        <img src="/anipat/img/team/2.png" alt="">
+                        <img src="/image/team/2.png" alt="">
                     </div>
                     <div class="member_name text-center">
                         <div class="mamber_inner">
@@ -351,7 +354,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single_team">
                     <div class="thumb">
-                        <img src="/anipat/img/team/3.png" alt="">
+                        <img src="/image/team/3.png" alt="">
                     </div>
                     <div class="member_name text-center">
                         <div class="mamber_inner">
@@ -435,7 +438,7 @@
                     <div class="footer_widget">
                         <div class="footer_logo">
                             <a href="#">
-                                <img src="/anipat/img/logo.png" alt="">
+                                <img src="/image/logo.png" alt="">
                             </a>
                         </div>
                         <p class="address_text">239 E 5th St, New York
@@ -492,33 +495,33 @@
 
 
 <!-- JS here -->
-<script src="/anipat/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="/anipat/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="/anipat/js/popper.min.js"></script>
-<script src="/anipat/js/bootstrap.min.js"></script>
-<script src="/anipat/js/owl.carousel.min.js"></script>
-<script src="/anipat/js/isotope.pkgd.min.js"></script>
-<script src="/anipat/js/ajax-form.js"></script>
-<script src="/anipat/js/waypoints.min.js"></script>
-<script src="/anipat/js/jquery.counterup.min.js"></script>
-<script src="/anipat/js/imagesloaded.pkgd.min.js"></script>
-<script src="/anipat/js/scrollIt.js"></script>
-<script src="/anipat/js/jquery.scrollUp.min.js"></script>
-<script src="/anipat/js/wow.min.js"></script>
-<script src="/anipat/js/nice-select.min.js"></script>
-<script src="/anipat/js/jquery.slicknav.min.js"></script>
-<script src="/anipat/js/jquery.magnific-popup.min.js"></script>
-<script src="/anipat/js/plugins.js"></script>
-<script src="/anipat/js/gijgo.min.js"></script>
+<script src="/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="/js/ajax-form.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/scrollIt.js"></script>
+<script src="/js/jquery.scrollUp.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/nice-select.min.js"></script>
+<script src="/js/jquery.slicknav.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/gijgo.min.js"></script>
 
 <!--contact js-->
-<script src="/anipat/js/contact.js"></script>
-<script src="/anipat/js/jquery.ajaxchimp.min.js"></script>
-<script src="/anipat/js/jquery.form.js"></script>
-<script src="/anipat/js/jquery.validate.min.js"></script>
-<script src="/anipat/js/mail-script.js"></script>
+<script src="/js/contact.js"></script>
+<script src="/js/jquery.ajaxchimp.min.js"></script>
+<script src="/js/jquery.form.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/mail-script.js"></script>
 
-<script src="/anipat/js/main.js"></script>
+<script src="/js/main.js"></script>
 <script>
     $('#datepicker').datepicker({
         iconsLibrary: 'fontawesome',
