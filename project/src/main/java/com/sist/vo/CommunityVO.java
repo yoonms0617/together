@@ -1,12 +1,24 @@
 package com.sist.vo;
-import java.util.*;
 
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.Date;
+
 @Getter
 @Setter
 public class CommunityVO {
-		private int cno,mno;
-		private String title,content,type;
-		private Date created_at;
+
+    private int cno;
+
+    private String title;
+
+    private String content;
+
+    private String type;
+
+    private Date createdAt;
+
+    private int mno;
+
 }
