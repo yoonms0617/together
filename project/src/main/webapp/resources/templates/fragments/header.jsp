@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 <header>
     <div class="header-area ">
         <div id="sticky-header" class="main-header-area">
