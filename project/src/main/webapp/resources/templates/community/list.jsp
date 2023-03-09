@@ -3,7 +3,17 @@
 <body>
 <jsp:include page="../fragments/header.jsp"/>
 <div>
-
+ <div class="container">
+  <div class="row">
+   <table class="table">
+    <tr>
+     <td>
+      <a href="../community/insert.do" class="btn btn-sm btn-danger"></a>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </div>
 </div>
 <jsp:include page="../fragments/footer.jsp"/>
 </body>
