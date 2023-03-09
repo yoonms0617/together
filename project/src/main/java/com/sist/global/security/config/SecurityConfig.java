@@ -1,4 +1,4 @@
-package com.sist.security.config;
+package com.sist.global.security.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -13,12 +13,10 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-                .httpBasic().disable()
-                .authorizeHttpRequests(request -> request
-                        .antMatchers("/").permitAll()
-                        .anyRequest().authenticated()
-                );
+        http.httpBasic().disable();
+        http.authorizeHttpRequests(request -> request
+                .anyRequest().permitAll()
+        );
         return http.build();
     }
 
