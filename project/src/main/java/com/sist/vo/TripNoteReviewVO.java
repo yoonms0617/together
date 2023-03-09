@@ -7,16 +7,18 @@ import java.util.Date;
 
 @Getter
 @Setter
-public class CommunityReplyVO {
+public class TripNoteReviewVO {
 
-    private int crno;
+    private int tnrno;
+
+    private String writer;
 
     private String content;
 
     private Date createdAt;
 
-    private int cno;
-
     private int mno;
+
+    private int tnno;
 
 }

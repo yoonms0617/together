@@ -7,18 +7,18 @@ import java.util.Date;
 
 @Getter
 @Setter
-public class BestTipVO {
+public class TripNoteVO {
 
-    private int bno;
+    private int tnno;
+
+    private String writer;
 
     private String title;
 
     private String content;
 
-    private String tag;
-
-    private int hit;
-
     private Date createdAt;
+
+    private int mno;
 
 }
