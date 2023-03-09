@@ -1,12 +1,22 @@
 package com.sist.vo;
-import java.util.*;
 
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.Date;
+
 @Getter
 @Setter
 public class CommunityReplyVO {
-	private int crno,cno,mno;
-	private String content;
-	private Date created_at;
+
+    private int crno;
+
+    private String content;
+
+    private Date createdAt;
+
+    private int cno;
+
+    private int mno;
+
 }

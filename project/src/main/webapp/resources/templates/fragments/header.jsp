@@ -5,26 +5,58 @@
             <div class="container">
                 <div>
                     <div>
-                        <div class="main-menu  d-none d-lg-block">
-                            <nav class="d-flex justify-content-center">
-                                <ul id="navigation">
-                                    <li><a href="index.html">여행지정보</a></li>
-                                    <li><a href="about.html">여행앨범</a></li>
-                                    <li><a href="about.html">여행노트</a></li>
-                                    <li><a href="#">커뮤니티 <i class="ti-angle-down"></i></a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">베스트팁</a></li>
-                                            <li><a href="single-blog.html">Q&A</a></li>
-                                            <li><a href="single-blog.html">고객센터</a></li>
-                                            <li><a href="single-blog.html">리뷰모음</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
+                        <div class="main-menu d-none d-lg-inline">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="justify-content-start">
+                                    <a href="/">
+                                        <h1>LOGO</h1>
+                                    </a>
+                                </div>
+                                <nav class="d-flex justify-content-center">
+                                    <ul id="navigation">
+                                        <li class="m-0">
+                                            <a href="/">여행지정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">여행앨범
+                                                <i class="ti-angle-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="/">여행노트</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="/">커뮤니티 <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="/">베스트팁</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">리뷰모음</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">Q&A</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">고객센터</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="d-flex justify-content-end">
+                                    <ul>
+                                        <li class="m-0">
+                                            <a href="/member/login">로그인</a>
+                                        </li>
+                                        <li class="ml-2">
+                                            <a href="/member/signup">회원가입</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
                     </div>
                 </div>
             </div>
