@@ -18,4 +18,8 @@
   <link rel="stylesheet" href="/css/animate.css">
   <link rel="stylesheet" href="/css/slicknav.css">
   <link rel="stylesheet" href="/css/style.css">
+
+  <!-- vuejs cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
