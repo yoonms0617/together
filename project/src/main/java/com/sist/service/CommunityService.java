@@ -10,4 +10,14 @@ import com.sist.vo.*;
 public class CommunityService {
 	@Autowired
 	private CommunityMapper mapper;
+	
+	public List<CommunityVO> communityListData(Map map)
+	{
+		return mapper.communityListData(map);
+	}
+	
+	public void communityInsert(CommunityVO vo)
+	{
+		mapper.communityInsert(vo);
+	}
 }
