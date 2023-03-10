@@ -27,7 +27,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="/">커뮤니티 <i class="ti-angle-down"></i></a>
+                                        <li><a href="../community/list.do">커뮤니티 <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li>
                                                     <a href="/">베스트팁</a>

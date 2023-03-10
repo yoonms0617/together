@@ -8,7 +8,7 @@ import java.util.Date;
 @Getter
 @Setter
 public class NoticeVO {
-
+ 
     private int nno;
 
     private String title;
@@ -16,5 +16,4 @@ public class NoticeVO {
     private String content;
 
     private Date createdAt;
-
 }
