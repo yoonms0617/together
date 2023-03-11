@@ -10,4 +10,10 @@ public class CommunityController {
 	{
 		return "community/list";
 	}
+	
+	@GetMapping("community/insert.do")
+	public String community_insert()
+	{
+		return "community/insert";
+	}
 }

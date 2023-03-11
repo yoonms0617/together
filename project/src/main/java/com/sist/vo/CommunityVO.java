@@ -16,8 +16,11 @@ public class CommunityVO {
     private String content;
 
     private String type;
+    
+    private String dbday;
 
     private Date createdAt;
+    
 
     private int mno;
 
