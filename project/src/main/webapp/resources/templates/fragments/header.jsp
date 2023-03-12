@@ -15,7 +15,7 @@
                                 <nav class="d-flex justify-content-center">
                                     <ul id="navigation">
                                         <li class="m-0">
-                                            <a href="/">여행지정보</a>
+                                            <a href="../place/place_list.do">여행지정보</a>
                                         </li>
                                         <li>
                                             <a href="/">여행앨범
