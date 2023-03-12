@@ -15,6 +15,8 @@ public class PlaceVO {
 
     private String title;
 
+    private String subtitle;
+
     private String address;
 
     private String tel;
