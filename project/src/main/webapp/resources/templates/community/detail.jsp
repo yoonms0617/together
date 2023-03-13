@@ -85,75 +85,9 @@
     </ul>
    </nav> 
   </div> 
-  <div class="container containers">
-  <div class="communityArea">
-   <table class="table">
-    <thead>
-     <tr>
-      <th width=10% class="text-center">번호</th>
-      <th width=45% class="text-center">제목</th>
-      <th width=15% class="text-center">이름</th>
-      <th width=20% class="text-center">작성일</th>
-      <th width=10% class="text-center">조회수</th>
-     </tr>
-    </thead>
-    <tbody>
-     <tr>
-      <td width=10% class="text-center">{{vo.cno}}</td>
-      <td width=45%><a :href="'../community/detail.do?no='+vo.cno">{{vo.title}}</a></td>
-      <td width=15% class="text-center">{{vo.name}}</td>
-      <td width=20% class="text-center">{{vo.dbday}}</td>
-      <td width=10% class="text-center">{{vo.hit}}</td>
-     </tr>
-     <tr> 
-      <td colspan="5" class="text-right">
-       <input type=button value="이전" class="btn btn-sm btn-danger" v-on:click="prev()">
-        {{curpage}} page / {{totalpage}} pages
-       <input type=button value="다음" class="btn btn-sm btn-warning" v-on:click="next()">
-      </td>
-     </tr>
-    </tbody>
-   </table>
-  </div>
-  </div>
  </div>
-</div>
-<script>
-new Vue({
-	   el:'.containers',
-	   data:{
-	 	   community_list:[],
-		   curpage:1,
-		   totalpage:0
-	   },
-	   mounted:function(){
-		   this.send()
-	   },
-	   methods:{
-		   send:function(){
-			   let _this=this
-			   axios.get("http://localhost/web/community/list_vue.do",{
-				   params:{
-					   page:this.curpage
-				   }
-			   }).then(function(response){
-				   console.log(response.data)
-				   _this.community_list=response.data
-				   _this.curpage=response.data[0].curpage
-				   _this.totalpage=response.data[0].totalpage
-			   }) 
-		   },
-		   prev:function(){
-			   this.curpage=this.curpage>1?this.curpage-1:this.curpage
-			   this.send()
-		   },
-		   next:function(){
-			   this.curpage=this.curpage<this.totalpage?this.curpage+1:this.curpage
-			   this.send()
-		   }
-	   }
-})
-</script>
+</div>  
+
 <jsp:include page="../fragments/footer.jsp"/>
 </body>
 </html>
