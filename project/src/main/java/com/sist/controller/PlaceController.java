@@ -14,10 +14,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PlaceController {
     @Autowired
     private PlaceService service;
-
     @GetMapping("place/place_list.do")
+    public String place_list(){
+        return "place/place_list";
+    }
+    @GetMapping("place/place_list_vue.do")
     @ResponseBody
-    public List<PlaceVO> place_list() {
+    public List<PlaceVO> place_list_vue() {
 
         List<PlaceVO> placeList = service.PlaceListData();
 
@@ -35,13 +38,16 @@ public class PlaceController {
             vo.setImage(image);
             System.out.println(image);
         }
-
         return placeList;
     }
 
     @GetMapping("place/place_detail.do")
+    public String place_detail(){
+        return "place/place_detail";
+    }
+    @GetMapping("place/place_detail_vue.do")
     @ResponseBody
-    public String place_detail(int pno, Model model) {
+    public List<PlaceVO> place_detail_vue(int pno, Model model) {
         List<PlaceVO> placeDetailData = service.placeDetailData(pno);
 
         for (PlaceVO vo : placeDetailData) {
@@ -65,6 +71,6 @@ public class PlaceController {
         }
         model.addAttribute("placeDetailData", placeDetailData);
 
-        return "place/place_detail";
+        return placeDetailData;
     }
 }
