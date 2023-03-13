@@ -11,13 +11,19 @@ public class CustomerVO {
 
     private int nno;
 
+    private int hit;
+    
     private String subject;
 
     private String content;
+    
+    private String name;
 
     private String pwd;
 
     private String type;
+    
+    private String dbday;
 
     private Date createdAt;
 
