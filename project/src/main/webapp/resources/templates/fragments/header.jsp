@@ -40,6 +40,9 @@
                                                     <a href="/">Q&A</a>
                                                 </li>
                                                 <li>
+                                                    <a href="/">공지사항</a>
+                                                </li>
+                                                <li>
                                                     <a href="/">고객센터</a>
                                                 </li>
                                             </ul>
