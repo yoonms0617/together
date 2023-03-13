@@ -54,8 +54,12 @@ public class CustomerController {
 		return "customer/delete";
 	}
 	
+<<<<<<< HEAD
 	@GetMapping("/faq")
 	public String faq() {
 		return "customer/faq";
 	}
+=======
+	
+>>>>>>> branch 'develop' of https://github.com/mechuuri/together.git
 }
