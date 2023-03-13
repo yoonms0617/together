@@ -54,5 +54,8 @@ public class CustomerController {
 		return "customer/delete";
 	}
 	
-	
+	@GetMapping("/faq")
+	public String faq() {
+		return "customer/faq";
+	}
 }

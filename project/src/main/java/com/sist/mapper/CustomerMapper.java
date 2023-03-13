@@ -30,9 +30,9 @@ import org.apache.ibatis.annotations.Update;
 @Mapper
 public interface CustomerMapper {
 	// 고객센터 1:1 문의 목록 출력
-	@Select("SELECT nno,subject,name,createdAt,hit,num "
-			+"FROM (SELECT nno,subject,name,createdAt,hit,rownum as num "
-			+"FROM (SELECT nno,subject,name,createdAt,hit "
+	@Select("SELECT nno,subject,name,regdate,hit,num "
+			+"FROM (SELECT nno,subject,name,regdate,hit,rownum as num "
+			+"FROM (SELECT nno,subject,name,regdate,hit "
 			+"FROM PET_HELP_2_1 ORDER BY nno DESC)) "
 			+"WHERE num BETWEEN #{start} AND #{end}")
 	public List<CustomerVO> csBoardListData(Map map);
@@ -43,7 +43,7 @@ public interface CustomerMapper {
 	
 	// 게시판 데이터 삽입
 	@SelectKey(keyProperty="nno", resultType=int.class, before=true,
-			statement="SELECT NVL(MAX(nno)+1,1) as nno FROM PET_HELP_2_")
+			statement="SELECT NVL(MAX(nno)+1,1) as nno FROM PET_HELP_2_1")
 	@Insert("INSERT INTO spring_board VALUES("
 			+"{nno}, #{name}, #{subject}, #{content}, #{pwd}, SYSDATE,0)")
 	public void csBoardInserst(CustomerVO vo);
@@ -55,7 +55,7 @@ public interface CustomerMapper {
 	public void csBoardHitIncrement(int nno);
 	
 	//게시판 데이터 상세보기
-	@Select("SELECT no,name,subject,content,createdAt,hit "
+	@Select("SELECT no,name,subject,content,regdate,hit "
 			+"FROM PET_HELP_2_1 "
 			+"WHERE nno=#{nno}")
 	public CustomerVO csBoardDetailData(int nno);

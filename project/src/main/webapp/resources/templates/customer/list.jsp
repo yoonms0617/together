@@ -38,7 +38,7 @@ h1{
    <table class="table">
      <tr>
       <td>
-       <a href="/customer/insert.do" class="plusBtn">+</a>
+       <a href="/customer/insert" class="plusBtn">+</a>
       </td>
      </tr>
    </table>
@@ -53,7 +53,7 @@ h1{
        </tr>
      </thead>
      <tbody>
-       <tr>
+       <tr v-for="vo in cs_list">
          <td width=10% class="text-center">{{vo.nno}}</td>
          <td width=45%><a :href="'/customer/detail?nno='+vo.nno">{{vo.subject}}</a></td>
          <td width=15% class="text-center">{{vo.name}}</td>
@@ -86,7 +86,7 @@ h1{
 	 methods:{
 		 send:function(){
 			 let _this=this
-			 axios.get("http://localhost/web/customer/list_vue.do",{
+			 axios.get("/customer/list_vue.do",{
 				 params:{
 					 page:this.curpage
 				 }
